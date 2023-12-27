@@ -1,0 +1,379 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,200;9..144,300;9..144,400;9..144,500;9..144,600;9..144,700;9..144,800;9..144,900&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  font-family: "Fraunces", serif;
+}
+
+header .header__text {
+  color: #FEFCF7;
+  font-family: Fraunces 9pt;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 72px;
+  margin-top: 100px;
+  margin-bottom: 30px;
+}
+header .header__paragraft {
+  color: #e0ded8;
+  font-family: Barlow;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 50px;
+}
+header .header__btn {
+  padding: 13px 35px;
+  border-radius: 6px;
+  background: #0E8784;
+  color: #FEFCF7;
+  text-align: center;
+  font-family: Fraunces 9pt;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 25px;
+  border: none;
+  outline: none;
+}
+
+/* 992 dan 1199 gacha */
+/* 768 dan 991 gacha */
+/* 576 dan 767 gacha */
+/* 0 dan 575 gacha */
+@media (max-width: 575px) {
+  header .header__text {
+    color: #FEFCF7;
+    font-family: Fraunces 9pt;
+    font-size: 47px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 50px;
+    margin-top: 100px;
+    margin-bottom: 27px;
+    text-align: center;
+  }
+  header .header__btn {
+    padding: 13px 35px;
+    border-radius: 6px;
+    background: #0E8784;
+    color: #FEFCF7;
+    text-align: center;
+    font-family: Fraunces 9pt;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 25px;
+    border: none;
+    outline: none;
+    margin-bottom: 80px;
+  }
+  .hedcofe {
+    color: #FEFCF7;
+    text-align: center;
+    font-family: Fraunces 9pt;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 40px;
+    padding-top: 100px;
+    padding-bottom: 25px;
+  }
+  .hedparam {
+    color: #FEFCF7;
+    text-align: center;
+    font-family: Barlow;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    /* 166.667% */
+    padding-bottom: 40px;
+  }
+}
+.about_wrapper nav {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.about_wrapper nav .nav_list {
+  display: flex;
+  justify-content: end;
+  gap: 33px;
+}
+.about_wrapper nav .nav_list .nav_list_item {
+  color: #83888F;
+  font-family: Barlow;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 15px;
+  letter-spacing: 0.923px;
+  text-transform: uppercase;
+}
+
+/* 992 dan 1199 gacha */
+/* 768 dan 991 gacha */
+/* 576 dan 767 gacha */
+/* 0 dan 575 gacha */
+@media (max-width: 575px) {
+  .nav_coffe_img {
+    width: 172px;
+    height: 70px;
+  }
+}
+section .section__ocp-img {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+section .section__carb {
+  text-align: center;
+}
+section .section__carb .sec__paket {
+  padding-bottom: 70px;
+}
+section .section__carb .section__text-grand {
+  color: #333D4B;
+  text-align: center;
+  font-family: Fraunces 9pt;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 32px;
+  margin-bottom: 24px;
+}
+section .section__carb .section__text-light {
+  color: #333D4B;
+  font-family: Barlow;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  /* 162.5% */
+}
+
+/* 992 dan 1199 gacha */
+/* 768 dan 991 gacha */
+/* 576 dan 767 gacha */
+/* 0 dan 575 gacha */
+@media (max-width: 575px) {
+  .section__img-our {
+    width: 100%;
+  }
+  section .section__carb .sec__paket {
+    padding-bottom: 43px;
+  }
+  .section__carb {
+    text-align: center;
+  }
+}
+.section2 {
+  background: #333D4B;
+  margin-top: 150px;
+}
+.section2 .section2__text {
+  text-align: center;
+}
+.section2 .section2__text .section2__text-why {
+  color: #FEFCF7;
+  padding-top: 110px;
+  padding-bottom: 32px;
+  text-align: center;
+  font-family: Fraunces 9pt;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 48px;
+}
+.section2 .section2__text .section__text-param {
+  color: #FEFCF7;
+  text-align: center;
+  font-family: Barlow;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  padding-bottom: 300px;
+}
+.section2 .sect-carb {
+  border-radius: 8px;
+  background: #0E8784;
+  text-align: center;
+  width: 350px;
+  height: 382px;
+}
+.section2 .sect-carb .section__img-green {
+  padding-top: 55px;
+  padding-bottom: 55px;
+}
+.section2 .sect-carb .section__text-gren {
+  color: #FEFCF7;
+  text-align: center;
+  font-family: Fraunces 9pt;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 32px;
+  padding-bottom: 25px;
+}
+.section2 .sect-carb .section__text-param2 {
+  color: #FEFCF7;
+  text-align: center;
+  font-family: Barlow;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  /* 162.5% */
+}
+
+.section3 {
+  margin-top: -200px;
+  margin-left: 50px;
+  margin-bottom: 200px;
+}
+.section3 .sect-carb {
+  border-radius: 8px;
+  background: #0E8784;
+  text-align: center;
+  width: 350px;
+  height: 382px;
+}
+.section3 .sect-carb .section__img-green {
+  padding-top: 55px;
+  padding-bottom: 55px;
+}
+.section3 .sect-carb .section__text-gren {
+  color: #FEFCF7;
+  text-align: center;
+  font-family: Fraunces 9pt;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 32px;
+  padding-bottom: 25px;
+}
+.section3 .sect-carb .section__text-param2 {
+  color: #FEFCF7;
+  text-align: center;
+  font-family: Barlow;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  /* 162.5% */
+}
+
+/* 992 dan 1199 gacha */
+/* 768 dan 991 gacha */
+/* 576 dan 767 gacha */
+/* 0 dan 575 gacha */
+@media (max-width: 575px) {
+  .section3 {
+    margin-left: 0;
+    margin-bottom: 120;
+  }
+  .sect-carb {
+    margin-bottom: 30px;
+  }
+}
+.section4 .section__tex-how {
+  color: #83888F;
+  font-family: Fraunces 9pt;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 32px;
+  margin-bottom: 80px;
+}
+.section4 .section__text4 .section__text-num {
+  color: #FDD6BA;
+  font-family: Fraunces 9pt;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 72px;
+  /* 100% */
+  margin-bottom: 35px;
+}
+.section4 .section__text4 .section__text-pick {
+  color: #333D4B;
+  font-family: Fraunces 9pt;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 36px;
+  /* 112.5% */
+  margin-bottom: 40px;
+}
+.section4 .section__text4 .section__text-select {
+  color: #333D4B;
+  font-family: Barlow;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 55px;
+}
+.section4 .section__btn-2 {
+  padding: 13px 35px;
+  border-radius: 6px;
+  background: #0E8784;
+  color: #FEFCF7;
+  text-align: center;
+  font-family: Fraunces 9pt;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 25px;
+  border: none;
+  outline: none;
+}
+
+footer {
+  background: #2C343E;
+  padding-top: 45px;
+  padding-bottom: 45px;
+}
+footer .footer__list {
+  display: flex;
+  justify-content: center;
+  gap: 35px;
+  padding-top: 10px;
+}
+footer .footer__list .footer__iteam_list {
+  color: #83888F;
+  font-family: Barlow;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 15px;
+  /* 125% */
+  letter-spacing: 0.923px;
+  text-transform: uppercase;
+}
+footer .footer_coffe_img {
+  width: 236px;
+  height: 26px;
+  flex-shrink: 0;
+}
+footer .footer__icons {
+  display: flex;
+  justify-content: end;
+  padding-top: 10px;
+  gap: 20px;
+}
+footer .footer__icons .footer__socialmedia-icons {
+  font-size: 26px;
+  color: #fff;
+}
+
+/*# sourceMappingURL=main.css.map */

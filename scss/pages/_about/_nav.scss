@@ -1,0 +1,44 @@
+.about_wrapper {
+    nav {
+        margin-top: 30px;
+        margin-bottom: 30px;
+
+        .nav_list {
+            display: flex;
+            justify-content: end;
+            gap: 33px;
+
+            .nav_list_item {
+                color: #83888F;
+                font-family: Barlow;
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 15px;
+                letter-spacing: 0.923px;
+                text-transform: uppercase;
+            }
+        }
+    }
+}
+
+
+
+/* 992 dan 1199 gacha */
+@media (max-width: 1199px) {}
+
+/* 768 dan 991 gacha */
+@media (max-width: 991px) {}
+
+/* 576 dan 767 gacha */
+@media (max-width: 767px) {}
+
+/* 0 dan 575 gacha */
+@media (max-width: 575px) {
+
+    .nav_coffe_img {
+        width: 172px;
+        height: 70px;
+    }
+    
+}

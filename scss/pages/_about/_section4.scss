@@ -1,0 +1,61 @@
+.section4 {
+
+    .section__tex-how {
+        color: #83888F;
+        font-family: Fraunces 9pt;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 32px;
+        margin-bottom: 80px;
+    }
+
+    .section__text4 {
+        .section__text-num {
+            color: #FDD6BA;
+            font-family: Fraunces 9pt;
+            font-size: 72px;
+            font-style: normal;
+            font-weight: 900;
+            line-height: 72px;
+            /* 100% */
+            margin-bottom: 35px;
+        }
+
+        .section__text-pick {
+            color: #333D4B;
+            font-family: Fraunces 9pt;
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 900;
+            line-height: 36px;
+            /* 112.5% */
+            margin-bottom: 40px;
+        }
+
+        .section__text-select {
+            color: #333D4B;
+            font-family: Barlow;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 26px;
+            margin-bottom: 55px;
+        }
+
+    }
+    .section__btn-2 {
+        padding: 13px 35px;
+        border-radius: 6px;
+        background: #0E8784;
+        color: #FEFCF7;
+        text-align: center;
+        font-family: Fraunces 9pt;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 25px;
+        border: none;
+        outline: none;
+    }
+}

@@ -1,0 +1,105 @@
+header {
+    .header__text {
+        color: #FEFCF7;
+        font-family: Fraunces 9pt;
+        font-size: 72px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 72px;
+        margin-top: 100px;
+        margin-bottom: 30px;
+    }
+
+    .header__paragraft {
+        color: #e0ded8;
+        font-family: Barlow;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+        margin-bottom: 50px;
+    }
+
+    .header__btn {
+        padding: 13px 35px;
+        border-radius: 6px;
+        background: #0E8784;
+        color: #FEFCF7;
+        text-align: center;
+        font-family: Fraunces 9pt;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 25px;
+        border: none;
+        outline: none;
+    }
+}
+
+
+
+/* 992 dan 1199 gacha */
+@media (max-width: 1199px) {}
+
+/* 768 dan 991 gacha */
+@media (max-width: 991px) {}
+
+/* 576 dan 767 gacha */
+@media (max-width: 767px) {}
+
+/* 0 dan 575 gacha */
+@media (max-width: 575px) {
+
+    header .header__text {
+        color: #FEFCF7;
+        font-family: Fraunces 9pt;
+        font-size: 47px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 50px;
+        margin-top: 100px;
+        margin-bottom: 27px;
+        text-align: center;
+    }
+
+    header .header__btn {
+        padding: 13px 35px;
+        border-radius: 6px;
+        background: #0E8784;
+        color: #FEFCF7;
+        text-align: center;
+        font-family: Fraunces 9pt;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 25px;
+        border: none;
+        outline: none;
+        margin-bottom: 80px;
+    }
+
+    .hedcofe {
+        color: #FEFCF7;
+        text-align: center;
+        font-family: Fraunces 9pt;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 40px;
+        padding-top: 100px;
+        padding-bottom: 25px;
+    }
+
+    .hedparam {
+        color: #FEFCF7;
+        text-align: center;
+        font-family: Barlow;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 25px;
+        /* 166.667% */
+        padding-bottom: 40px;
+    }
+    
+}
